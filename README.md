@@ -1,6 +1,13 @@
 # 🧬 Rare Disease Intelligence Platform
 
 A healthcare analytics dashboard built using the Orphanet Rare Disease Dataset.
+# 🧬 Rare Disease Intelligence Platform
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)]([YOUR_STREAMLIT_LINK](https://rarediseaseanalytics-vwmexzjfqi3jfxwtuwlctd.streamlit.app/))
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)]()
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)]()
 
 ## Features
 
