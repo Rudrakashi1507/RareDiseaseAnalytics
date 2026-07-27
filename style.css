@@ -1,0 +1,478 @@
+/* =========================================
+   PREMIUM METRIC CARDS
+========================================= */
+
+.metric-card{
+    background: white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    transition:all 0.3s ease;
+    cursor:pointer;
+    box-shadow:0 6px 18px rgba(0,0,0,0.12);
+}
+
+.metric-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 35px rgba(37,99,235,0.25);
+}
+
+.metric-icon{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.metric-value{
+    font-size:48px;
+    font-weight:700;
+}
+
+.metric-label{
+    font-size:18px;
+    font-weight:600;
+    color:#555;
+}
+
+
+/* ========= CARD COLORS ========= */
+
+.metric-card.blue{
+    border-top-color:#2563eb;
+}
+.metric-card.blue .metric-value{
+    color:#2563eb;
+}
+
+.metric-card.green{
+    border-top-color:#22c55e;
+}
+.metric-card.green .metric-value{
+    color:#22c55e;
+}
+
+.metric-card.orange{
+    border-top-color:#f59e0b;
+}
+.metric-card.orange .metric-value{
+    color:#f59e0b;
+}
+
+.metric-card.purple{
+    border-top-color:#8b5cf6;
+}
+.metric-card.purple .metric-value{
+    color:#8b5cf6;
+}
+
+.metric-card.cyan{
+    border-top-color:#06b6d4;
+}
+.metric-card.cyan .metric-value{
+    color:#06b6d4;
+}
+
+.metric-card.pink{
+    border-top-color:#ec4899;
+}
+.metric-card.pink .metric-value{
+    color:#ec4899;
+}
+
+.metric-card.indigo{
+    border-top-color:#6366f1;
+}
+.metric-card.indigo .metric-value{
+    color:#6366f1;
+}
+
+.metric-card.emerald{
+    border-top-color:#10b981;
+}
+.metric-card.emerald .metric-value{
+    color:#10b981;
+}
+
+.metric-card.teal{
+    border-top-color:#14b8a6;
+}
+.metric-card.teal .metric-value{
+    color:#14b8a6;
+}
+
+.metric-card.red{
+    border-top-color:#ef4444;
+}
+.metric-card.red .metric-value{
+    color:#ef4444;
+}
+
+.metric-card.gold{
+    border-top-color:#f59e0b;
+}
+.metric-card.gold .metric-value{
+    color:#f59e0b;
+}
+
+
+/* =========================================
+   INSIGHT CARDS
+========================================= */
+
+.insight-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:18px;
+    box-shadow:0 6px 16px rgba(0,0,0,.12);
+    transition:.35s;
+    border-left:6px solid #2563eb;
+}
+
+.insight-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 14px 24px rgba(0,0,0,.18);
+}
+
+.insight-card h3{
+    margin:0;
+    color:#666;
+    font-size:18px;
+    font-weight:600;
+}
+
+.insight-card h1{
+    margin-top:10px;
+    margin-bottom:0;
+    font-size:36px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+
+/* ===== Insight Card Colors ===== */
+
+.insight-card.blue{
+    border-left-color:#2563eb;
+}
+.insight-card.blue h1{
+    color:#2563eb;
+}
+
+.insight-card.green{
+    border-left-color:#22c55e;
+}
+.insight-card.green h1{
+    color:#22c55e;
+}
+
+.insight-card.orange{
+    border-left-color:#f59e0b;
+}
+.insight-card.orange h1{
+    color:#f59e0b;
+}
+
+.insight-card.purple{
+    border-left-color:#8b5cf6;
+}
+.insight-card.purple h1{
+    color:#8b5cf6;
+}
+
+.insight-card.teal{
+    border-left-color:#14b8a6;
+}
+.insight-card.teal h1{
+    color:#14b8a6;
+}
+
+.insight-card.red{
+    border-left-color:#ef4444;
+}
+.insight-card.red h1{
+    color:#ef4444;
+}
+.stDownloadButton>button{
+
+background:linear-gradient(135deg,#2563eb,#3b82f6)!important;
+
+color:white!important;
+
+border:none!important;
+
+border-radius:12px!important;
+
+padding:12px 28px!important;
+
+font-size:18px!important;
+
+font-weight:700!important;
+
+transition:.3s!important;
+
+box-shadow:0 8px 20px rgba(37,99,235,.35)!important;
+
+}
+
+.stDownloadButton>button:hover{
+
+background:linear-gradient(135deg,#1d4ed8,#2563eb)!important;
+
+transform:translateY(-3px)!important;
+
+box-shadow:0 12px 30px rgba(37,99,235,.45)!important;
+
+}
+.section-title{
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+color:white;
+padding:14px 20px;
+border-radius:14px;
+font-size:28px;
+font-weight:700;
+margin:25px 0 20px;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.group-card{
+background:white;
+padding:18px;
+margin-bottom:15px;
+border-radius:14px;
+box-shadow:0 8px 20px rgba(0,0,0,.12);
+transition:.3s;
+}
+
+.group-card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 30px rgba(0,0,0,.18);
+}
+
+.group-card h4{
+margin:0;
+color:#1e3a8a;
+font-size:18px;
+}
+
+.group-card h3{
+margin:0;
+color:#2563eb;
+}
+
+.progress{
+height:10px;
+background:#e5e7eb;
+border-radius:20px;
+margin-top:12px;
+overflow:hidden;
+}
+
+.progress-fill{
+height:100%;
+background:linear-gradient(90deg,#2563eb,#7c3aed);
+border-radius:20px;
+}
+/* ===========================
+   Disease Comparison & Search
+=========================== */
+
+/* Section Heading */
+h2, h3 {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+}
+
+/* Labels */
+label,
+.stSelectbox label,
+.stRadio label,
+.stTextInput label {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+/* Selectbox */
+div[data-baseweb="select"] > div {
+    font-size: 20px !important;
+    min-height: 55px !important;
+}
+
+/* Radio buttons */
+div[role="radiogroup"] label {
+    font-size: 20px !important;
+}
+
+/* Search box */
+input {
+    font-size: 20px !important;
+}
+
+/* DataFrame/Table */
+[data-testid="stDataFrame"] * {
+    font-size: 18px !important;
+}
+
+/* Table header */
+thead tr th {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+/* ==========================
+   Data Quality Report Table
+========================== */
+
+/* Header */
+[data-testid="stDataFrame"] thead th{
+    font-size:22px !important;
+    font-weight:700 !important;
+}
+
+/* Table rows */
+[data-testid="stDataFrame"] tbody td{
+    font-size:20px !important;
+    font-weight:500 !important;
+}
+
+/* Index column */
+[data-testid="stDataFrame"] tbody th{
+    font-size:20px !important;
+}
+
+/* Overall dataframe */
+[data-testid="stDataFrame"]{
+    border-radius:15px;
+    overflow:hidden;
+}
+/* ============================
+   Disease Profile Card
+============================ */
+
+.disease-profile{
+    background:#ffffff;
+    border-radius:18px;
+    padding:25px;
+    margin-top:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.profile-title{
+    font-size:34px;
+    font-weight:700;
+    color:#2563eb;
+    margin-bottom:25px;
+}
+
+.profile-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.profile-item{
+    background:#f8fafc;
+    border-left:6px solid #2563eb;
+    padding:16px;
+    border-radius:12px;
+}
+
+.profile-item span{
+    color:#666;
+    font-size:16px;
+    font-weight:600;
+}
+
+.profile-item h4{
+    margin-top:8px;
+    margin-bottom:0;
+    font-size:24px;
+    color:#111827;
+}
+/* Comparison Card */
+
+.compare-card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    border-top:6px solid #2563eb;
+    margin-top:15px;
+}
+
+.compare-card h2{
+    color:#2563eb;
+    font-size:28px;
+}
+
+.compare-card p{
+    font-size:18px;
+    color:#333;
+    line-height:1.8;
+}
+.section-title{
+    font-size:34px;
+    font-weight:700;
+    color:white;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.definition-box{
+    margin-top:25px;
+    background:#f8fafc;
+    border-left:6px solid #2563eb;
+    padding:20px;
+    border-radius:15px;
+}
+
+.definition-box h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.definition-box p{
+    color:#222;
+    font-size:17px;
+    line-height:1.8;
+}
+.section-title{
+    background: linear-gradient(90deg,#2563eb,#7c3aed);
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 16px 22px;
+    border-radius: 15px;
+    margin: 25px 0 20px 0;
+    box-shadow: 0 8px 20px rgba(37,99,235,.25);
+}
+.compare-card{
+background:#1a2235;
+border:1px solid #334155;
+border-radius:18px;
+padding:22px;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+transition:.3s;
+margin-top:10px;
+}
+
+.compare-card:hover{
+transform:translateY(-5px);
+border-color:#3b82f6;
+box-shadow:0 12px 25px rgba(37,99,235,.35);
+}
+
+.compare-title{
+font-size:28px;
+font-weight:700;
+color:#ffffff;
+margin-bottom:18px;
+}
+
+.compare-item{
+padding:10px 0;
+border-bottom:1px solid rgba(255,255,255,.08);
+font-size:16px;
+}
+
+.compare-item span{
+font-weight:700;
+color:#60a5fa;
+}
