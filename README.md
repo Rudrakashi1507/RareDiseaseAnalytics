@@ -38,3 +38,27 @@ Rudrakashi Kiledar
 B.Tech AI & DS
 
 Poornima College of Engineering
+
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### Disease Search
+
+![Search](screenshots/search.png)
+
+---
+
+### Disease Comparison
+
+![Comparison](screenshots/comparison.png)
+
+---
+
+### Analytics Dashboard
+
+![Analytics](screenshots/analytics.png)
