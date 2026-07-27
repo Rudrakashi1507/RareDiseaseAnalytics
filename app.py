@@ -3,6 +3,15 @@ import pandas as pd
 import plotly.express as px
 
 # -----------------------------
+# Session State
+# -----------------------------
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if "theme" not in st.session_state:
+    st.session_state.theme = "Light"
+
+# -----------------------------
 # Page Configuration
 # -----------------------------
 st.set_page_config(
@@ -10,6 +19,28 @@ st.set_page_config(
     page_icon="🧬",
     layout="wide"
 )
+
+# -----------------------------
+# Login Screen
+# -----------------------------
+if not st.session_state.logged_in:
+
+    st.title("🔐 Login")
+
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login", use_container_width=True):
+
+        if username == "admin" and password == "admin123":
+            st.session_state.logged_in = True
+            st.rerun()
+
+        else:
+            st.error("Invalid Username or Password")
+
+    st.stop()
+
 st.markdown("""
 <div style="
 background: linear-gradient(135deg, #0f172a, #1e3a8a, #3b82f6);
@@ -117,6 +148,7 @@ st.sidebar.metric(
     df["type"].nunique()
 )
 st.sidebar.divider()
+
 st.sidebar.title("🔍 Filters")
 
 selected_type = st.sidebar.selectbox(
@@ -140,6 +172,14 @@ if selected_group != "All":
     filtered_df = filtered_df[
         filtered_df["group"] == selected_group
     ]
+    # -----------------------------
+# Logout Button
+# -----------------------------
+st.sidebar.divider()
+
+if st.sidebar.button("🚪 Logout", use_container_width=True):
+    st.session_state.logged_in = False
+    st.rerun()
 
 # -----------------------------
 # Metrics
