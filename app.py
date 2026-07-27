@@ -32,7 +32,7 @@ if not st.session_state.logged_in:
 
     if st.button("Login", use_container_width=True):
 
-        if username == "admin" and password == "admin123":
+        if username == "Rudrakashi" and password == "Rudra123@":
             st.session_state.logged_in = True
             st.rerun()
 
@@ -172,12 +172,14 @@ if selected_group != "All":
     filtered_df = filtered_df[
         filtered_df["group"] == selected_group
     ]
-    # -----------------------------
-# Logout Button
-# -----------------------------
-st.sidebar.divider()
 
-if st.sidebar.button("🚪 Logout", use_container_width=True):
+    st.sidebar.divider()
+
+if st.sidebar.button(
+    "🚪 Logout",
+    key="logout_sidebar",
+    use_container_width=True
+):
     st.session_state.logged_in = False
     st.rerun()
 
@@ -189,6 +191,7 @@ st.markdown("""
 📊 Dashboard Overview
 </div>
 """, unsafe_allow_html=True)
+
 
 m1, m2, m3, m4 = st.columns(4)
 
@@ -1110,6 +1113,7 @@ with c3:
         <div class="metric-label">Missing Values</div>
     </div>
     """, unsafe_allow_html=True)
+    
 
 # -----------------------------
 # Footer
@@ -1147,3 +1151,16 @@ Version 1.0 • 2026
 
 </div>
 """, unsafe_allow_html=True)
+
+st.markdown("---")
+
+col1, col2, col3 = st.columns([3, 1, 3])
+
+with col2:
+    if st.button(
+        "🚪 Logout",
+        key="logout_bottom",
+        use_container_width=True
+    ):
+        st.session_state.logged_in = False
+        st.rerun()
