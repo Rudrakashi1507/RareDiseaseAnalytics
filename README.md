@@ -39,26 +39,29 @@ B.Tech AI & DS
 
 Poornima College of Engineering
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### Dashboard
+## 🏠 Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
 ---
 
-### Disease Search
+## 🔍 Disease Search
 
 ![Search](screenshots/search.png)
 
 ---
 
-### Disease Comparison
+## ⚖️ Disease Comparison
 
 ![Comparison](screenshots/comparison.png)
 
 ---
 
-### Analytics Dashboard
+## 📊 Analytics Dashboard
 
 ![Analytics](screenshots/analytics.png)
+
+---
+
